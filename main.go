@@ -13,5 +13,6 @@ func Modify(str string) string {
 }
 
 func main() {
-	reader := bufio.newReader
+	reader := bufio.NewReaderSize(os.Stdin, 16 * 1024 * 1024)
+	
 }
