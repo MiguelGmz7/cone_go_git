@@ -1,7 +1,17 @@
 package main
 
-import "fmt"
+import (
+	"bufio"
+	"fmt"
+	"io"
+	"os"
+	"strings"
+)
+
+func Modify(str string) string {
+
+}
 
 func main() {
-	fmt.Println("Primer hola mundo")
+	reader := bufio.newReader
 }
