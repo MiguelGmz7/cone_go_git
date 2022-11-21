@@ -3,7 +3,6 @@ package main
 import "fmt"
 
 
-func main()
-{
-	fmt.Printl("hola mundo soy de rancho")
-}
+func main(){
+
+	fmt.Printl("hola mundo soy de rancho") }
